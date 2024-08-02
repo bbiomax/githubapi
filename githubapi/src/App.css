@@ -5,6 +5,7 @@
 
 body {
   background: #0d1117;
+  font-family: "Manrope", sans-serif;
 }
 
 .app {
@@ -19,4 +20,8 @@ body {
   height: 700px;
   width: 1500px;
   border-radius: 10px;
+
+  box-sizing: border-box;
+  padding-left: 50px;
+  padding-right: 50px;
 }
