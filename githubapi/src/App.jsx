@@ -1,6 +1,7 @@
 import "./App.css";
 import Filters from "./components/Filters/Filters";
-import Search from "./components/search/Search";
+import Main from "./components/Main/Main";
+import Search from "./components/Search/Search";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className="content">
         <Search />
         <Filters />
+        <Main />
       </div>
     </div>
   );

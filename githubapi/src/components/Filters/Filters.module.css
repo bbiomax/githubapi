@@ -9,6 +9,10 @@ span {
   font-size: 26px;
 }
 
+svg {
+  width: 20px;
+}
+
 .filtersBox {
   display: flex;
   align-items: center;
@@ -25,6 +29,23 @@ span {
   border-radius: 100px;
 
   transition: 0.2s;
+}
+
+.activeFilter {
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  border: 1px solid #1f6feb;
+  padding: 10px 20px 10px 20px;
+  border-radius: 100px;
+
+  transition: 0.2s;
+}
+
+.activeFilter:hover {
+  border-color: #72a2eb;
 }
 
 .filterItem:hover {

@@ -1,0 +1,52 @@
+.container {
+  margin-top: 25px;
+
+  width: 100%;
+  height: 480px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.userItem {
+  cursor: pointer;
+  border: 1px solid #353941;
+  min-width: 300px;
+  min-height: 150px;
+  border-radius: 10px;
+
+  box-sizing: border-box;
+  padding: 15px;
+
+  display: flex;
+  gap: 30px;
+
+  transition: 0.2s;
+}
+
+.userItem:hover {
+  border-color: #63676f;
+}
+
+.userImg {
+  min-width: 50px;
+  height: 50px;
+  border-radius: 100px;
+
+  background: #353941;
+}
+
+.repositoryInfo {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.repositoryName {
+  width: 215px;
+  height: 15px;
+  border-radius: 6px;
+
+  background: #353941;
+}
